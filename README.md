@@ -1,5 +1,7 @@
 # Docker image for OpenSTLinux build (Yocto Linux)
 
+[Docker Hub link](https://cloud.docker.com/repository/docker/kbumsik/build-yocto-st)
+
 This is an Ubuntu 16.04 image that contains necessary packages to build OpenSTLinux.
 The advantage is that you can build OpenSTLinux without installing Ubuntu 16.04
 on your machine. This is very useful for Windows and other Linux (e.g. Arch) users.
@@ -11,6 +13,7 @@ For instructions on how to build this Yocto Linux distribution, please refer
 You need to run the following `docker run` command before following the instruction.
 
 Usage example:
+
     docker run -it \
         --volume=${PWD}:/build \
         --volume=/my/sstate/dir:/sstate \

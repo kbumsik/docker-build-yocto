@@ -38,4 +38,4 @@ WORKDIR /build
 
 USER build
 # Print guide
-CMD cat /app/README.md | tail -9
+CMD cat /app/README.md | tail -10
