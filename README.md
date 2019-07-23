@@ -10,7 +10,8 @@ I successfully build STM32MP1 Distribution Package OpenSTLinux distribution
 `openstlinux-4.19-thud-mp1-19-02-20` using this image.
 For instructions on how to build this Yocto Linux distribution, please refer
 [ST's official Wiki](https://wiki.st.com/stm32mpu/wiki/STM32MP1_Distribution_Package).
-You need to run the following `docker run` command before following the instruction.
+You need to run the following `docker run` command before following
+the instructions from the Wiki.
 
 Usage example:
 
